@@ -4,8 +4,8 @@ const app = express();
 app.get("/", (request, response) => {
   response.send(`
     <div style="font-family: sans-serif; text-align: center; margin-top: 50px;">
-      <h1>ยินดีต้อนรับสู่ Server ของผม/หนู</h1>
-      <p>นี่คือ Web Server เครื่องแรกที่สร้างขึ้นเองด้วย Node.js ครับ/ค่ะ</p>
+      <h1>ยินดีต้อนรับสู่ Server ของผม</h1>
+      <p>นี่คือ Web Server เครื่องแรกที่สร้างขึ้นเองด้วย Node.js ครับ</p>
       <hr>
       <h2>ข้อมูลนักศึกษา</h2>
       <p><strong>รหัสนักศึกษา:</strong> [69319010129]</p>
